@@ -38,7 +38,7 @@ function Dashboard() {
       }
     }
     getCurrencies();
-    intervalId = setInterval(getCurrencies, 60000);
+    intervalId = setInterval(getCurrencies, 30000);
     return () => clearInterval(intervalId);
   }, []);
 
